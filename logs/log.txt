@@ -1,0 +1,116 @@
+[2026-03-26 09:12:05] [WARN] [uid:guest] [ip:10.4.5.12] [req:/index.php] Failed login for username: EmmaDeVries | POST:{"username":"EmmaDeVries","password":"wachtwoord","csrf_token":"a1b2c3d4e5"}
+[2026-03-26 09:12:18] [WARN] [uid:guest] [ip:10.4.5.12] [req:/index.php] Failed login for username: EmmaDeVries | POST:{"username":"EmmaDeVries","password":"wacthwoord","csrf_token":"a1b2c3d4e5"}
+[2026-03-26 09:15:44] [WARN] [uid:guest] [ip:192.168.1.101] [req:/index.php] Failed login for username: DaanBakker | POST:{"username":"DaanBakker","password":"123456","csrf_token":"b2c3d4e5f6"}
+[2026-03-26 09:16:02] [WARN] [uid:guest] [ip:192.168.1.101] [req:/index.php] Failed login for username: DaanBakker | POST:{"username":"DaanBakker","password":"123456789","csrf_token":"b2c3d4e5f6"}
+[2026-03-26 09:22:11] [SECURITY] [uid:guest] [ip:172.16.4.88] [req:/index.php] Potential SQL Injection detected | POST:{"username":"admin'--","password":"123","csrf_token":"x9y8z7"}
+[2026-03-26 09:30:05] [WARN] [uid:guest] [ip:145.24.12.99] [req:/index.php] Failed login for username: SjaakPolak | POST:{"username":"SjaakPolak","password":"welkom1","csrf_token":"p1o2i3"}
+[2026-03-26 09:30:25] [WARN] [uid:guest] [ip:145.24.12.99] [req:/index.php] Failed login for username: SjaakPolak | POST:{"username":"SjaakPolak","password":"Welkom1!","csrf_token":"p1o2i3"}
+[2026-03-26 09:45:10] [WARN] [uid:guest] [ip:192.168.65.42] [req:/index.php] Failed login for username: SanneMeijer | POST:{"username":"SanneMeijer","password":"qwerty","csrf_token":"m9n8b7"}
+[2026-03-26 09:45:22] [WARN] [uid:guest] [ip:192.168.65.42] [req:/index.php] Failed login for username: SanneMeijer | POST:{"username":"SanneMeijer","password":"qweerty","csrf_token":"m9n8b7"}
+[2026-03-26 10:01:05] [WARN] [uid:guest] [ip:10.0.0.15] [req:/index.php] Failed login for username: KevinDeHacker | POST:{"username":"KevinDeHacker","password":"password","csrf_token":"j4k5l6"}
+[2026-03-26 10:01:15] [WARN] [uid:guest] [ip:10.0.0.15] [req:/index.php] Failed login for username: KevinDeHacker | POST:{"username":"KevinDeHacker","password":"pasword","csrf_token":"j4k5l6"}
+[2026-03-26 10:12:44] [WARN] [uid:guest] [ip:192.168.1.205] [req:/index.php] Failed login for username: LisaSmit | POST:{"username":"LisaSmit","password":"zomer2026","csrf_token":"h7g6f5"}
+[2026-03-26 10:15:33] [WARN] [uid:guest] [ip:172.16.0.11] [req:/index.php] Failed login for username: ThijsVisser | POST:{"username":"ThijsVisser","password":"geheim","csrf_token":"v5c4x3"}
+[2026-03-26 10:15:50] [WARN] [uid:guest] [ip:172.16.0.11] [req:/index.php] Failed login for username: ThijsVisser | POST:{"username":"ThijsVisser","password":"Geheim123","csrf_token":"v5c4x3"}
+[2026-03-26 10:30:12] [WARN] [uid:guest] [ip:145.24.16.102] [req:/index.php] Failed login for username: AnoukBos | POST:{"username":"AnoukBos","password":"hallo123","csrf_token":"z1x2c3"}
+[2026-03-26 10:45:01] [WARN] [uid:guest] [ip:10.4.5.12] [req:/index.php] Failed login for username: KeesdeAdmin | POST:{"username":"KeesdeAdmin","password":"bello2020","csrf_token":"a1b2c3"}
+[2026-03-26 10:45:15] [WARN] [uid:guest] [ip:10.4.5.12] [req:/index.php] Failed login for username: KeesdeAdmin | POST:{"username":"KeesdeAdmin","password":"Bello202","csrf_token":"a1b2c3"}
+[2026-03-26 10:55:30] [WARN] [uid:guest] [ip:192.168.1.55] [req:/index.php] Failed login for username: docent | POST:{"username":"docent","password":"P@ssword1","csrf_token":"d4e5f6"}
+[2026-03-26 11:05:05] [SECURITY] [uid:guest] [ip:192.168.65.10] [req:/index.php] XSS payload blocked in username field | POST:{"username":"<svg onload=alert(1)>","password":"123","csrf_token":"g7h8i9"}
+[2026-03-26 11:12:22] [WARN] [uid:guest] [ip:172.16.4.33] [req:/index.php] Failed login for username: JanJansen | POST:{"username":"JanJansen","password":"12345","csrf_token":"j0k1l2"}
+[2026-03-26 11:12:40] [WARN] [uid:guest] [ip:172.16.4.33] [req:/index.php] Failed login for username: JanJansen | POST:{"username":"JanJansen","password":"janjansen1","csrf_token":"j0k1l2"}
+[2026-03-26 11:20:15] [WARN] [uid:guest] [ip:145.24.12.88] [req:/index.php] Failed login for username: PietjePuk | POST:{"username":"PietjePuk","password":"test","csrf_token":"p3o4i5"}
+[2026-03-26 11:35:01] [WARN] [uid:guest] [ip:10.0.0.50] [req:/index.php] Failed login for username: admin | POST:{"username":"admin","password":"admin123","csrf_token":"u7y6t5"}
+[2026-03-26 11:40:12] [WARN] [uid:guest] [ip:192.168.1.101] [req:/index.php] Failed login for username: DaanBakker | POST:{"username":"DaanBakker","password":"voetbal","csrf_token":"r4e3w2"}
+[2026-03-26 11:55:33] [WARN] [uid:guest] [ip:192.168.65.18] [req:/index.php] Failed login for username: EmmaDeVries | POST:{"username":"EmmaDeVries","password":"emmadevries","csrf_token":"q1w2e3"}
+[2026-03-26 12:05:10] [WARN] [uid:guest] [ip:172.16.0.42] [req:/index.php] Failed login for username: KeesdeAdmin | POST:{"username":"KeesdeAdmin","password":"Bello2020!","csrf_token":"t5y6u7"}
+[2026-03-26 12:05:25] [WARN] [uid:guest] [ip:172.16.0.42] [req:/index.php] Failed login for username: KeesdeAdmin | POST:{"username":"KeesdeAdmin","password":"bello2020!","csrf_token":"t5y6u7"}
+[2026-03-26 12:12:01] [SECURITY] [uid:guest] [ip:10.4.5.102] [req:/.env] File access denied: Forbidden path | POST:[]
+[2026-03-26 12:15:22] [WARN] [uid:guest] [ip:192.168.1.205] [req:/index.php] Failed login for username: SjaakPolak | POST:{"username":"SjaakPolak","password":"ww123","csrf_token":"i8o9p0"}
+[2026-03-26 12:18:44] [WARN] [uid:guest] [ip:145.24.16.12] [req:/index.php] Failed login for username: KevinDeHacker | POST:{"username":"KevinDeHacker","password":"hacker123","csrf_token":"l2k3j4"}
+[2026-03-26 12:20:05] [INFO] [uid:guest] [ip:192.168.65.12] [req:/index.php] Password reset requested for: KeesdeAdmin | POST:{"email":"kees@school.nl","csrf_token":"h5g6f7"}
+[2026-03-26 12:22:30] [WARN] [uid:guest] [ip:10.0.0.8] [req:/index.php] Failed login for username: LisaSmit | POST:{"username":"LisaSmit","password":"lisasmit","csrf_token":"d8s9a0"}
+[2026-03-26 12:25:09] [WARN] [uid:guest] [ip:192.168.65.12] [req:/index.php] Failed login for username: KeesdeAdmin | POST:{"username":"KeesdeAdmin","password":"Bello2020","csrf_token":"85a006ea3681cd69f27f6010347d384a704800dce315cea6275f1856595a3657"}
+[2026-03-26 12:26:15] [WARN] [uid:guest] [ip:172.16.4.88] [req:/index.php] Failed login for username: AnoukBos | POST:{"username":"AnoukBos","password":"iloveyou","csrf_token":"m1n2b3"}
+[2026-03-26 12:27:53] [WARN] [uid:1] [ip:192.168.65.12] [req:/index.php] Failed login for username: KeesdeAdmin | POST:{"username":"KeesdeAdmin","password":"Bello2020","csrf_token":"85a006ea3681cd69f27f6010347d384a704800dce315cea6275f1856595a3657"}
+[2026-03-26 12:28:10] [WARN] [uid:1] [ip:192.168.65.12] [req:/index.php] Failed login for username: KeesdeAdmin | POST:{"username":"KeesdeAdmin","password":"Bello2020","csrf_token":"85a006ea3681cd69f27f6010347d384a704800dce315cea6275f1856595a3657"}
+[2026-03-26 12:30:05] [SECURITY] [uid:guest] [ip:145.24.12.99] [req:/index.php] XSS payload blocked in password field | POST:{"username":"admin","password":"\"><script>alert('xss')</script>","csrf_token":"v4c5x6"}
+[2026-03-26 12:32:34] [WARN] [uid:guest] [ip:10.0.5.33] [req:/index.php] Failed login for username: PietjePuk | POST:{"username":"PietjePuk","password":"Test123","csrf_token":"c0bf14057ecb417d19451d2672d11ac0f73e1d76398dc5e60bfa567e7f51bb0a"}
+[2026-03-26 12:32:50] [WARN] [uid:guest] [ip:10.0.5.33] [req:/index.php] Failed login for username: JanJansen | POST:{"username":"JanJansen","password":"Geheim!","csrf_token":"c0bf14057ecb417d19451d2672d11ac0f73e1d76398dc5e60bfa567e7f51bb0a"}
+[2026-03-26 12:34:12] [WARN] [uid:guest] [ip:192.168.1.55] [req:/index.php] Failed login for username: ThijsVisser | POST:{"username":"ThijsVisser","password":"Thijs123","csrf_token":"p0o9i8"}
+[2026-03-26 12:36:34] [WARN] [uid:1] [ip:192.168.65.12] [req:/dashboard.php] Transfer amount below minimum: -3 by uid:1 | POST:{"csrf_token":"c0bf14057ecb417d19451d2672d11ac0f73e1d76398dc5e60bfa567e7f51bb0a","ontvanger":"FerryKuhlman","bedrag":"-3","omschrijving":"HacksZ!"}
+[2026-03-26 12:37:05] [WARN] [uid:1] [ip:192.168.65.12] [req:/dashboard.php] Insufficient funds for transfer: 1000000 by uid:1 | POST:{"csrf_token":"c0bf14057ecb417d19451d2672d11ac0f73e1d76398dc5e60bfa567e7f51bb0a","ontvanger":"FerryKuhlman","bedrag":"1000000","omschrijving":"Jackpot"}
+[2026-03-26 12:40:11] [SECURITY] [uid:guest] [ip:10.4.5.12] [req:/transacties.php] CSRF Token missing | POST:{"ontvanger":"DaanBakker","bedrag":"50"}
+[2026-03-26 12:42:55] [WARN] [uid:guest] [ip:172.16.0.11] [req:/index.php] Failed login for username: SanneMeijer | POST:{"username":"SanneMeijer","password":"sanne","csrf_token":"l3k4j5"}
+[2026-03-26 12:45:30] [WARN] [uid:guest] [ip:145.24.16.102] [req:/index.php] Failed login for username: EmmaDeVries | POST:{"username":"EmmaDeVries","password":"123123","csrf_token":"h6g7f8"}
+[2026-03-26 12:50:01] [WARN] [uid:guest] [ip:192.168.65.42] [req:/index.php] Failed login for username: SjaakPolak | POST:{"username":"SjaakPolak","password":"polak","csrf_token":"d9s0a1"}
+[2026-03-26 12:55:18] [WARN] [uid:guest] [ip:10.0.0.15] [req:/index.php] Failed login for username: DaanBakker | POST:{"username":"DaanBakker","password":"daan","csrf_token":"m2n3b4"}
+[2026-03-26 13:01:22] [WARN] [uid:guest] [ip:192.168.1.101] [req:/index.php] Failed login for username: KevinDeHacker | POST:{"username":"KevinDeHacker","password":"letmein","csrf_token":"v5c6x7"}
+[2026-03-26 13:05:44] [WARN] [uid:guest] [ip:172.16.4.33] [req:/index.php] Failed login for username: LisaSmit | POST:{"username":"LisaSmit","password":"lisa123","csrf_token":"z8x9c0"}
+[2026-03-26 13:10:05] [WARN] [uid:guest] [ip:145.24.12.88] [req:/index.php] Failed login for username: ThijsVisser | POST:{"username":"ThijsVisser","password":"visser","csrf_token":"p1o2i3"}
+[2026-03-26 13:15:30] [WARN] [uid:guest] [ip:10.0.5.33] [req:/index.php] Failed login for username: AnoukBos | POST:{"username":"AnoukBos","password":"bos","csrf_token":"u4y5t6"}
+[2026-03-26 13:20:12] [WARN] [uid:guest] [ip:192.168.65.18] [req:/index.php] Failed login for username: JanJansen | POST:{"username":"JanJansen","password":"jansen","csrf_token":"r7e8w9"}
+[2026-03-26 13:25:55] [WARN] [uid:guest] [ip:10.4.5.102] [req:/index.php] Failed login for username: PietjePuk | POST:{"username":"PietjePuk","password":"pukkie","csrf_token":"q0w1e2"}
+[2026-03-26 13:30:40] [WARN] [uid:guest] [ip:172.16.0.42] [req:/index.php] Failed login for username: docent | POST:{"username":"docent","password":"docent123","csrf_token":"a3s4d5"}
+[2026-03-26 13:35:15] [WARN] [uid:guest] [ip:192.168.1.205] [req:/index.php] Failed login for username: admin | POST:{"username":"admin","password":"administrator","csrf_token":"f6g7h8"}
+[2026-03-26 13:40:05] [WARN] [uid:guest] [ip:145.24.16.12] [req:/index.php] Failed login for username: EmmaDeVries | POST:{"username":"EmmaDeVries","password":"emma","csrf_token":"j9k0l1"}
+[2026-03-26 13:45:22] [WARN] [uid:guest] [ip:10.0.0.8] [req:/index.php] Failed login for username: DaanBakker | POST:{"username":"DaanBakker","password":"bakker","csrf_token":"z2x3c4"}
+[2026-03-26 13:50:50] [WARN] [uid:guest] [ip:192.168.65.12] [req:/index.php] Failed login for username: KeesdeAdmin | POST:{"username":"KeesdeAdmin","password":"Bello2020!","csrf_token":"v5b6n7"}
+[2026-03-26 13:52:10] [WARN] [uid:guest] [ip:192.168.65.12] [req:/index.php] Failed login for username: KeesdeAdmin | POST:{"username":"KeesdeAdmin","password":"BELLO2020","csrf_token":"v5b6n7"}
+[2026-03-26 13:55:01] [WARN] [uid:guest] [ip:172.16.4.88] [req:/index.php] Failed login for username: SjaakPolak | POST:{"username":"SjaakPolak","password":"sjaakie","csrf_token":"m8q9w0"}
+[2026-03-26 14:00:15] [WARN] [uid:guest] [ip:145.24.12.99] [req:/index.php] Failed login for username: SanneMeijer | POST:{"username":"SanneMeijer","password":"meijer","csrf_token":"e1r2t3"}
+[2026-03-26 14:05:30] [WARN] [uid:guest] [ip:10.0.0.50] [req:/index.php] Failed login for username: KevinDeHacker | POST:{"username":"KevinDeHacker","password":"1337","csrf_token":"y4u5i6"}
+[2026-03-26 14:10:45] [WARN] [uid:guest] [ip:192.168.1.101] [req:/index.php] Failed login for username: LisaSmit | POST:{"username":"LisaSmit","password":"smit","csrf_token":"o7p8a9"}
+[2026-03-26 14:15:05] [WARN] [uid:guest] [ip:192.168.65.18] [req:/index.php] Failed login for username: ThijsVisser | POST:{"username":"ThijsVisser","password":"thijs","csrf_token":"s0d1f2"}
+[2026-03-26 14:20:20] [WARN] [uid:guest] [ip:172.16.0.11] [req:/index.php] Failed login for username: AnoukBos | POST:{"username":"AnoukBos","password":"anouk","csrf_token":"g3h4j5"}
+[2026-03-26 14:25:55] [WARN] [uid:guest] [ip:145.24.16.102] [req:/index.php] Failed login for username: JanJansen | POST:{"username":"JanJansen","password":"jan","csrf_token":"k6l7z8"}
+[2026-03-26 14:30:10] [WARN] [uid:guest] [ip:10.4.5.12] [req:/index.php] Failed login for username: PietjePuk | POST:{"username":"PietjePuk","password":"pietje","csrf_token":"x9c0v1"}
+[2026-03-26 14:35:25] [WARN] [uid:guest] [ip:192.168.65.42] [req:/index.php] Failed login for username: docent | POST:{"username":"docent","password":"leraar","csrf_token":"b2n3m4"}
+[2026-03-26 14:40:40] [WARN] [uid:guest] [ip:10.0.0.15] [req:/index.php] Failed login for username: admin | POST:{"username":"admin","password":"root","csrf_token":"q5w6e7"}
+[2026-03-26 14:45:05] [WARN] [uid:guest] [ip:192.168.1.55] [req:/index.php] Failed login for username: EmmaDeVries | POST:{"username":"EmmaDeVries","password":"devries","csrf_token":"r8t9y0"}
+[2026-03-26 14:50:20] [WARN] [uid:guest] [ip:172.16.4.33] [req:/index.php] Failed login for username: DaanBakker | POST:{"username":"DaanBakker","password":"dbakker","csrf_token":"u1i2o3"}
+[2026-03-26 14:55:55] [WARN] [uid:guest] [ip:145.24.12.88] [req:/index.php] Failed login for username: SjaakPolak | POST:{"username":"SjaakPolak","password":"spolak","csrf_token":"p4a5s6"}
+[2026-03-26 15:00:10] [WARN] [uid:guest] [ip:10.0.5.33] [req:/index.php] Failed login for username: SanneMeijer | POST:{"username":"SanneMeijer","password":"smeijer","csrf_token":"d7f8g9"}
+[2026-03-26 15:05:25] [WARN] [uid:guest] [ip:192.168.65.10] [req:/index.php] Failed login for username: KevinDeHacker | POST:{"username":"KevinDeHacker","password":"haxx","csrf_token":"h0j1k2"}
+[2026-03-26 15:10:40] [WARN] [uid:guest] [ip:172.16.0.42] [req:/index.php] Failed login for username: LisaSmit | POST:{"username":"LisaSmit","password":"lsmit","csrf_token":"l3z4x5"}
+[2026-03-26 15:15:05] [WARN] [uid:guest] [ip:145.24.16.12] [req:/index.php] Failed login for username: ThijsVisser | POST:{"username":"ThijsVisser","password":"tvisser","csrf_token":"c6v7b8"}
+[2026-03-26 15:20:20] [WARN] [uid:guest] [ip:10.0.0.8] [req:/index.php] Failed login for username: AnoukBos | POST:{"username":"AnoukBos","password":"abos","csrf_token":"n9m0q1"}
+[2026-03-26 15:25:55] [WARN] [uid:guest] [ip:192.168.1.205] [req:/index.php] Failed login for username: JanJansen | POST:{"username":"JanJansen","password":"jjansen","csrf_token":"w2e3r4"}
+[2026-03-26 15:30:10] [WARN] [uid:guest] [ip:172.16.4.88] [req:/index.php] Failed login for username: PietjePuk | POST:{"username":"PietjePuk","password":"ppuk","csrf_token":"t5y6u7"}
+[2026-03-26 15:35:25] [WARN] [uid:guest] [ip:145.24.12.99] [req:/index.php] Failed login for username: docent | POST:{"username":"docent","password":"informatica","csrf_token":"i8o9p0"}
+[2026-03-26 15:40:40] [WARN] [uid:guest] [ip:10.0.0.50] [req:/index.php] Failed login for username: admin | POST:{"username":"admin","password":"sysadmin","csrf_token":"a1s2d3"}
+[2026-03-26 15:45:05] [WARN] [uid:guest] [ip:192.168.1.101] [req:/index.php] Failed login for username: EmmaDeVries | POST:{"username":"EmmaDeVries","password":"edevries","csrf_token":"f4g5h6"}
+[2026-03-26 15:50:20] [WARN] [uid:guest] [ip:192.168.65.18] [req:/index.php] Failed login for username: DaanBakker | POST:{"username":"DaanBakker","password":"bakker1","csrf_token":"j7k8l9"}
+[2026-03-26 15:55:55] [WARN] [uid:guest] [ip:172.16.0.11] [req:/index.php] Failed login for username: SjaakPolak | POST:{"username":"SjaakPolak","password":"polak1","csrf_token":"z0x1c2"}
+[2026-03-26 16:00:10] [WARN] [uid:guest] [ip:145.24.16.102] [req:/index.php] Failed login for username: SanneMeijer | POST:{"username":"SanneMeijer","password":"meijer1","csrf_token":"v3b4n5"}
+[2026-03-26 16:05:25] [WARN] [uid:guest] [ip:10.4.5.12] [req:/index.php] Failed login for username: KevinDeHacker | POST:{"username":"KevinDeHacker","password":"hacker1","csrf_token":"m6q7w8"}
+[2026-03-26 16:10:40] [WARN] [uid:guest] [ip:192.168.65.42] [req:/index.php] Failed login for username: LisaSmit | POST:{"username":"LisaSmit","password":"smit1","csrf_token":"e9r0t1"}
+[2026-03-26 16:15:05] [WARN] [uid:guest] [ip:10.0.0.15] [req:/index.php] Failed login for username: ThijsVisser | POST:{"username":"ThijsVisser","password":"visser1","csrf_token":"y2u3i4"}
+[2026-03-26 16:20:20] [WARN] [uid:guest] [ip:192.168.1.55] [req:/index.php] Failed login for username: AnoukBos | POST:{"username":"AnoukBos","password":"bos1","csrf_token":"o5p6a7"}
+[2026-03-26 16:25:55] [WARN] [uid:guest] [ip:172.16.4.33] [req:/index.php] Failed login for username: JanJansen | POST:{"username":"JanJansen","password":"jansen1","csrf_token":"s8d9f0"}
+[2026-03-26 16:30:10] [WARN] [uid:guest] [ip:145.24.12.88] [req:/index.php] Failed login for username: PietjePuk | POST:{"username":"PietjePuk","password":"puk1","csrf_token":"g1h2j3"}
+[2026-03-26 16:35:25] [WARN] [uid:guest] [ip:10.0.5.33] [req:/index.php] Failed login for username: docent | POST:{"username":"docent","password":"leraar1","csrf_token":"k4l5z6"}
+[2026-03-26 16:40:40] [WARN] [uid:guest] [ip:192.168.65.10] [req:/index.php] Failed login for username: admin | POST:{"username":"admin","password":"admin1","csrf_token":"x7c8v9"}
+[2026-03-26 16:45:05] [WARN] [uid:guest] [ip:172.16.0.42] [req:/index.php] Failed login for username: EmmaDeVries | POST:{"username":"EmmaDeVries","password":"emma1","csrf_token":"b0n1m2"}
+[2026-03-26 16:50:20] [WARN] [uid:guest] [ip:145.24.16.12] [req:/index.php] Failed login for username: DaanBakker | POST:{"username":"DaanBakker","password":"daan1","csrf_token":"q3w4e5"}
+[2026-03-26 17:05:25] [WARN] [uid:guest] [ip:10.0.0.8] [req:/index.php] Failed login for username: SjaakPolak | POST:{"username":"SjaakPolak","password":"sjaak1","csrf_token":"p2a3s4"}
+[2026-03-26 17:10:40] [WARN] [uid:guest] [ip:192.168.1.205] [req:/index.php] Failed login for username: SanneMeijer | POST:{"username":"SanneMeijer","password":"sanne1","csrf_token":"d5f6g7"}[2026-03-26 12:44:13] [UNCAUGHT_EXCEPTION] [uid:1] [ip:192.168.65.1] [req:/dashboard.php] Uncaught exception PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mydb.user' doesn't exist in /var/www/html/dashboard.php:113
+Stack: #0 /var/www/html/dashboard.php(113): PDO->prepare('SELECT balance ...')
+#1 {main} | POST:[]
+[2026-03-26 12:44:14] [UNCAUGHT_EXCEPTION] [uid:1] [ip:192.168.65.1] [req:/dashboard.php] Uncaught exception PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mydb.user' doesn't exist in /var/www/html/dashboard.php:113
+Stack: #0 /var/www/html/dashboard.php(113): PDO->prepare('SELECT balance ...')
+#1 {main} | POST:[]
+[2026-03-26 12:48:49] [UNCAUGHT_EXCEPTION] [uid:1] [ip:192.168.65.1] [req:/dashboard.php] Uncaught exception PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mydb.user' doesn't exist in /var/www/html/dashboard.php:113
+Stack: #0 /var/www/html/dashboard.php(113): PDO->prepare('SELECT balance ...')
+#1 {main} | POST:[]
+[2026-03-26 12:48:51] [UNCAUGHT_EXCEPTION] [uid:1] [ip:192.168.65.1] [req:/dashboard.php] Uncaught exception PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mydb.user' doesn't exist in /var/www/html/dashboard.php:113
+Stack: #0 /var/www/html/dashboard.php(113): PDO->prepare('SELECT balance ...')
+#1 {main} | POST:[]
+[2026-03-26 12:48:53] [PHP_ERROR] [uid:1] [ip:192.168.65.1] [req:/] PHP error (2): Undefined variable $ENBhO2mgTA4lMfjVrbZp5u7MMYBjG6Ww8FCc8F5B1dTjn5K09HZrC in /var/www/html/includes/userTable.php:17 | POST:[]
+[2026-03-26 12:48:53] [PHP_ERROR] [uid:1] [ip:192.168.65.1] [req:/] PHP error (2): Undefined variable $sp75dTcsmbkwMq6o3qlp0O0YSp3o7WwbDx in /var/www/html/includes/userTable.php:18 | POST:[]
+[2026-03-26 12:48:53] [PHP_ERROR] [uid:1] [ip:192.168.65.1] [req:/] PHP error (2): Undefined variable $arVd25KxPcEvCW8e3UgodO4h6TMnzqErf in /var/www/html/includes/userTable.php:19 | POST:[]
+[2026-03-26 12:48:53] [PHP_ERROR] [uid:1] [ip:192.168.65.1] [req:/] PHP error (2): Undefined variable $xVLL072NOb00ThKbJCspzu15fZlT in /var/www/html/includes/userTable.php:20 | POST:[]
+[2026-03-26 12:48:53] [PHP_ERROR] [uid:1] [ip:192.168.65.1] [req:/] PHP error (2): Undefined variable $JrMgUqcZhNWxc9b0k2ud7u7rUYgnxzOpecFqxk7ZLU in /var/www/html/includes/userTable.php:22 | POST:[]
+[2026-03-26 12:48:53] [PHP_ERROR] [uid:1] [ip:192.168.65.1] [req:/] PHP error (2): Undefined variable $E1HVUlC7fChlLJbm0te9GOm8pgyUHXfCVtXS6L1ad0jMNuXQmYIHa in /var/www/html/includes/userTable.php:23 | POST:[]
+[2026-03-26 12:48:53] [PHP_ERROR] [uid:1] [ip:192.168.65.1] [req:/] PHP error (2): Undefined variable $mkfb7ncPPMD91FbS2buUcumC4ofz9 in /var/www/html/includes/userTable.php:24 | POST:[]
+[2026-03-26 12:50:47] [WARN] [uid:1] [ip:192.168.65.1] [req:/index.php] Failed login for username: KeesdeAdmin | POST:{"username":"KeesdeAdmin","password":"Bello2020","csrf_token":"8ed5e81a216d6ec38ec2c53998b4e44163de1d271584ce6acea02dd07ae7b9d3"}
