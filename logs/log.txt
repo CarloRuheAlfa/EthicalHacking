@@ -94,23 +94,3 @@
 [2026-03-26 16:45:05] [WARN] [uid:guest] [ip:172.16.0.42] [req:/index.php] Failed login for username: EmmaDeVries | POST:{"username":"EmmaDeVries","password":"emma1","csrf_token":"b0n1m2"}
 [2026-03-26 16:50:20] [WARN] [uid:guest] [ip:145.24.16.12] [req:/index.php] Failed login for username: DaanBakker | POST:{"username":"DaanBakker","password":"daan1","csrf_token":"q3w4e5"}
 [2026-03-26 17:05:25] [WARN] [uid:guest] [ip:10.0.0.8] [req:/index.php] Failed login for username: SjaakPolak | POST:{"username":"SjaakPolak","password":"sjaak1","csrf_token":"p2a3s4"}
-[2026-03-26 17:10:40] [WARN] [uid:guest] [ip:192.168.1.205] [req:/index.php] Failed login for username: SanneMeijer | POST:{"username":"SanneMeijer","password":"sanne1","csrf_token":"d5f6g7"}[2026-03-26 12:44:13] [UNCAUGHT_EXCEPTION] [uid:1] [ip:192.168.65.1] [req:/dashboard.php] Uncaught exception PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mydb.user' doesn't exist in /var/www/html/dashboard.php:113
-Stack: #0 /var/www/html/dashboard.php(113): PDO->prepare('SELECT balance ...')
-#1 {main} | POST:[]
-[2026-03-26 12:44:14] [UNCAUGHT_EXCEPTION] [uid:1] [ip:192.168.65.1] [req:/dashboard.php] Uncaught exception PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mydb.user' doesn't exist in /var/www/html/dashboard.php:113
-Stack: #0 /var/www/html/dashboard.php(113): PDO->prepare('SELECT balance ...')
-#1 {main} | POST:[]
-[2026-03-26 12:48:49] [UNCAUGHT_EXCEPTION] [uid:1] [ip:192.168.65.1] [req:/dashboard.php] Uncaught exception PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mydb.user' doesn't exist in /var/www/html/dashboard.php:113
-Stack: #0 /var/www/html/dashboard.php(113): PDO->prepare('SELECT balance ...')
-#1 {main} | POST:[]
-[2026-03-26 12:48:51] [UNCAUGHT_EXCEPTION] [uid:1] [ip:192.168.65.1] [req:/dashboard.php] Uncaught exception PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mydb.user' doesn't exist in /var/www/html/dashboard.php:113
-Stack: #0 /var/www/html/dashboard.php(113): PDO->prepare('SELECT balance ...')
-#1 {main} | POST:[]
-[2026-03-26 12:48:53] [PHP_ERROR] [uid:1] [ip:192.168.65.1] [req:/] PHP error (2): Undefined variable $ENBhO2mgTA4lMfjVrbZp5u7MMYBjG6Ww8FCc8F5B1dTjn5K09HZrC in /var/www/html/includes/userTable.php:17 | POST:[]
-[2026-03-26 12:48:53] [PHP_ERROR] [uid:1] [ip:192.168.65.1] [req:/] PHP error (2): Undefined variable $sp75dTcsmbkwMq6o3qlp0O0YSp3o7WwbDx in /var/www/html/includes/userTable.php:18 | POST:[]
-[2026-03-26 12:48:53] [PHP_ERROR] [uid:1] [ip:192.168.65.1] [req:/] PHP error (2): Undefined variable $arVd25KxPcEvCW8e3UgodO4h6TMnzqErf in /var/www/html/includes/userTable.php:19 | POST:[]
-[2026-03-26 12:48:53] [PHP_ERROR] [uid:1] [ip:192.168.65.1] [req:/] PHP error (2): Undefined variable $xVLL072NOb00ThKbJCspzu15fZlT in /var/www/html/includes/userTable.php:20 | POST:[]
-[2026-03-26 12:48:53] [PHP_ERROR] [uid:1] [ip:192.168.65.1] [req:/] PHP error (2): Undefined variable $JrMgUqcZhNWxc9b0k2ud7u7rUYgnxzOpecFqxk7ZLU in /var/www/html/includes/userTable.php:22 | POST:[]
-[2026-03-26 12:48:53] [PHP_ERROR] [uid:1] [ip:192.168.65.1] [req:/] PHP error (2): Undefined variable $E1HVUlC7fChlLJbm0te9GOm8pgyUHXfCVtXS6L1ad0jMNuXQmYIHa in /var/www/html/includes/userTable.php:23 | POST:[]
-[2026-03-26 12:48:53] [PHP_ERROR] [uid:1] [ip:192.168.65.1] [req:/] PHP error (2): Undefined variable $mkfb7ncPPMD91FbS2buUcumC4ofz9 in /var/www/html/includes/userTable.php:24 | POST:[]
-[2026-03-26 12:50:47] [WARN] [uid:1] [ip:192.168.65.1] [req:/index.php] Failed login for username: KeesdeAdmin | POST:{"username":"KeesdeAdmin","password":"Bello2020","csrf_token":"8ed5e81a216d6ec38ec2c53998b4e44163de1d271584ce6acea02dd07ae7b9d3"}
